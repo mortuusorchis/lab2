@@ -72,7 +72,7 @@ while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej 
     }
 } */
 // zadanie 6
-/* {
+ {
 
     int fahr, celsius;
     int start, limit, krok;
@@ -88,7 +88,7 @@ while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej 
         fahr = fahr + krok; //zwieksz wartosc zmiennej fahr o wartosc zmiennej krok
 
     }
-} */
+} 
 
 // zadanie 7 
 /* {
@@ -108,7 +108,7 @@ while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej 
 }*/
 
 // zadanie 8
-{
+/* {
     for (int i = 0; i <= 100; i = i + 2)
     {
         cout << i << endl;
@@ -125,4 +125,4 @@ while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej 
         cin >> n;
     }
 
-}
+}*/
