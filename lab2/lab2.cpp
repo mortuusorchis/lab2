@@ -1,20 +1,128 @@
-// lab2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+// zadanie 1
 #include <iostream>
 
+using namespace std;
+
 int main()
+
+/* {
+    for (int i = 5; i <= 7; i++) {
+        cout << i << endl;
+
+    }
+    return 0;
+}  // kod wyœwietla elementy z zakresu [5,7]
+/*{
+    for (int i = 5; i < 7; i++) {
+        cout << i << endl;
+
+    }
+    return 0;
+} // kod wyœwietla elementy z zakresu [5,7)
+*/
+/* {
+    for (int i = 0; i <= 10; i = i + 2)
+        cout << i << endl;
+} */  // kod, który wyœwietla co drugi element z zakresu [0,10]
+
+/* {
+    for (int i = 10; i >= 0; i = i - 1)
+        cout << i << endl;
+}*/ // kod, który wyœwietla wartoœci od 10 do 0 
+
+// zadanie 2
+/* {
+int fahr, celsius; //zmienne typu int
+int start, limit, krok; //zmienne typu int
+
+start = 0; //przypisz 0 do start
+limit = 200; //przypisz 200 do limit
+krok = 20; //przypisz 20 do krok
+
+fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0
+while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej limit
+    celsius = 5 * (fahr - 32) / 9; //oblicz stopnie C i przypisz wynik do celsius
+    cout << fahr << "\t" << celsius << endl; //wypisz zmienne na ekran
+    fahr = fahr + krok; //zwieksz wartosc zmiennej fahr o wartosc zmiennej krok
+}
+} */ // zadanie 2 przetestowane
+
+// zadanie 3
+/* {
+    int fahr, celsius; //zmienne typu int
+    int start, limit, krok; //zmienne typu int
+    start = 0; //przypisz 0 do start
+    limit = 200; //przypisz 200 do limit
+    krok = 20; //przypisz 20 do krok
+    //for (fahr = 0.0; fahr <= limit; fahr = fahr + krok)
+    while (fahr <= limit)
+    {
+        float celsius = (5.0 / 9.0) * (fahr - 32.0);
+        cout << fahr << "\t" << celsius << endl;
+        fahr = fahr + krok;
+
+    }
+} */
+// zadanie 5
+/* {
+    for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) //kod 02_16
+    {
+        float celsius = (5.0 / 9.0) * (fahr - 32.0);
+        printf("%3.0f %6.1f \n", fahr, celsius);
+    }
+} */
+// zadanie 6
+/* {
+
+    int fahr, celsius;
+    int start, limit, krok;
+    start = 0;
+    cout << "ustal limit: " << endl;
+    cin >> limit;
+    cout << "ustal krok: " << endl;
+    cin >> krok;
+    fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0
+    while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej limit
+        celsius = 5 * (fahr - 32) / 9; //oblicz stopnie C i przypisz wynik do celsius
+        cout << fahr << "\t" << celsius << endl; //wypisz zmienne na ekran
+        fahr = fahr + krok; //zwieksz wartosc zmiennej fahr o wartosc zmiennej krok
+
+    }
+} */
+
+// zadanie 7 
+/* {
+    int liczba;
+
+
+    for (int i = 0; i < 10; i++)
+    {
+        cout << " podaj liczbe rzeczywista: " << endl;
+            cin >> liczba;
+             if (liczba > 0) {
+                 cout << liczba << endl;
+             }
+             else { cout << " twoja liczba jest ujemna " << endl;
+             }
+    }
+}*/
+
+// zadanie 8
 {
-    std::cout << "Hello World!\n";
+    for (int i = 0; i <= 100; i = i + 2)
+    {
+        cout << i << endl;
+    }
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+// zadanie 9
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+{ 
+    for (int n = 0; n <= 100; n = n + 2)
+    {
+        int n;
+        cout << " podaj wartosc n:" << endl;
+        cin >> n;
+    }
+
+}
